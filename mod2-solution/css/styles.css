@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: white;
+}
+
+h1, h2, p {
+    font: sans-serif;
+    color: black;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin: 0%;
+    width: 12%;
+}
+
+p {
+    text-align: left;  
+}
+
+.chicken{
+    background-color: pink;
+}
+
+.beef{
+    background-color: red;
+}
+
+.sushi{
+    background-color: yellow;
+}
+
+section{
+    background-color: rgb(147, 144, 144);
+    border-style: solid;
+    border-color: black;
+   
+}
