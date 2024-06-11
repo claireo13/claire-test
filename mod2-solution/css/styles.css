@@ -18,20 +18,18 @@ h1{
     font-size: 3em;
     margin: 12px;
 }
-
+/* small device */
 section{
     background-color: lightgrey;
     border: 1.7px solid black;
-   /* width: 30%;*/
     height: 200px;
     margin: 14px;
-   /* float: left;*/
 }
 
 h2 {
     border: 1.5px solid black;
-    margin: 0% 0% 10px 70%;
-    width: 30%;
+    margin: 0% 0% 15px 65%;
+    width: 35%;
     padding: 8px 5px 8px 5px;
 }
 
@@ -58,23 +56,25 @@ p {
     section{ 
        width: 30%;
        float: left;
-       height: 120%;
+       height: 150%;
     }
 }
 /* medium device */
 @media (min-width: 768px) and (max-width: 991px){
 
     .box1{ 
-        width: 40%;
+        width: 46%;
        float: left;
+       height: 120%;
      }
       .box2{ 
-        width: 40%;
+        width: 46%;
       float: right;
+      height: 120%;
      }
 
      .box3{ 
-        width: 100%;
+        width: 97%;
        float: left; 
      }
 }
