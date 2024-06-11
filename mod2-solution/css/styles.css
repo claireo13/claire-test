@@ -22,10 +22,10 @@ h1{
 section{
     background-color: lightgrey;
     border: 1.7px solid black;
-    width: 30%;
+   /* width: 30%;*/
     height: 200px;
     margin: 14px;
-    float: left;
+   /* float: left;*/
 }
 
 h2 {
@@ -52,7 +52,29 @@ p {
 .sushi{
     background-color: yellow;
 }
+/* large device */
+@media (min-width: 992px){
 
+    section{ 
+       width: 30%;
+       float: left;
+       height: 120%;
+    }
+}
+/* medium device */
+@media (min-width: 768px) and (max-width: 991px){
 
+    .box1{ 
+        width: 40%;
+       float: left;
+     }
+      .box2{ 
+        width: 40%;
+      float: right;
+     }
 
-
+     .box3{ 
+        width: 100%;
+       float: left; 
+     }
+}
