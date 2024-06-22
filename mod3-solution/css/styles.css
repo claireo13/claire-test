@@ -10,7 +10,7 @@ body {
     background-color: gray;
     border-radius: 0;
     border: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     border: 2px solid black;
   }
   
@@ -80,7 +80,6 @@ body {
   /** main content **/ 
 h1, h2, p {
   color: black;
-  text-align: center;
   margin: 20px;
 }
 
@@ -92,16 +91,19 @@ h1{
 section{
   background-color: grey;
   height: 350px;
-  padding: 5px;
+  padding: 10px;
   border: 10px  solid white;
+  margin: 15px;
 }
 
 h2 {
   font-size: 1.6em;
+  text-align: center;
 }
 
 p {
   text-align: left; 
+  margin-top: 5%;
 }
 
 
