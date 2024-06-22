@@ -1,58 +1,107 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: white;
     font-family: 'Oxygen', sans-serif;
   }
   
   /** HEADER **/
   #header-nav {
-    background-color: lightgray;
+    background-color: gray;
     border-radius: 0;
     border: 0;
+    padding-bottom: 20px;
+    border: 2px solid black;
   }
   
-  
   .navbar-brand {
-    padding-top: 25px;
+    padding-top: 23px;
+    padding-bottom: 20px;
   }
   
   .navbar-brand h1 { /* Restaurant name */
     font-family: 'Lora', serif;
     color: #0d0e0c;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
   }
+
   .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
- 
-  
+
+ /* menu button */ 
+.navbar{
+  background-color: gray;
+  padding-top: 12px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.navbar button{
+  margin-right: 30px;
+}
+
+.navbar button.navbar-toggler, .navbar-header .icon-bar {
+  border: 1px solid #120d0f;
+}
+
   #nav-list {
     margin-top: 10px;
+    background-color: white;
   }
+
+  #nav-list li {
+    border: 2px solid black;
+    margin: 0%;
+    padding: 15px;
+  }
+
   #nav-list a {
     color: #131011;
     text-align: center;
+    font-size: 1.8em;
   }
+
   #nav-list a:hover {
     background: #E7E7E7;
   }
-  #nav-list a span {
-    font-size: 1.8em;
-  }
   
- 
-  
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-  }
   .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
   }
   /* END HEADER */
+
+  /** main content **/ 
+h1, h2, p {
+  color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+h1{
+  font-size: 1.85em;
+  font-weight: bold;
+}
+
+section{
+  background-color: grey;
+  height: 350px;
+  padding: 5px;
+  border: 10px  solid white;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p {
+  text-align: left; 
+}
+
+
