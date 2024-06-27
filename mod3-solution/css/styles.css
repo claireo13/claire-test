@@ -53,6 +53,7 @@ body {
     border: 2px solid black;
     margin: 0%;
     padding: 15px;
+    padding-left: 35px;
   }
 
   #nav-list a {
@@ -82,12 +83,11 @@ h1{
   font-weight: bold;
 }
 
-section{
-  background-color: grey;
-  height: 350px;
-  padding: 10px;
-  border: 10px  solid white;
-  margin: 15px;
+#section1, #section2, #section3{
+  background-color: lightgrey;
+  height: 700px;
+  padding: 1%;
+  margin: 1.6%;
 }
 
 h2 {
@@ -100,4 +100,23 @@ p {
   margin-top: 5%;
 }
 
+@media(min-width: 768px){
+  .col-md-6{
+    max-width: 45%;
+  }
+#section3{
+  max-width: 93%;
+}
+}
 
+@media(min-width: 992px){
+  .col-lg-4{
+    max-width: 30%;
+  }
+#section3{
+  max-width: 30%;
+}
+
+}
+
+ 
